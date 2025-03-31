@@ -30,16 +30,20 @@
     <!-- acesso ao class no css é "." e no ID é # -->
     <div class="container">
         <h2> Calculadoras </h2>
-       <form>
-            <div>
+        <form>
+            <div class="campos">
                 <label> Mascote do time </label>
-                <input type="number" id="mascote"/>
+                <input type="number" id="mascote" />
             </div>
-            <div>
-                <label> Mascote do time </label>
-                <input type="number" id="mascote"/>
+            <div class="campos">
+                <label> Homenagem a um atleta </label>
+                <input type="number" id="homenagem" />
             </div>
-       </form>
+            <div class="campos">
+                <button type="button" onclick="calcular()"> Calcular </button>
+                <label id="soma"> </label>
+            </div>
+        </form>
     </div>
 </body>
 
