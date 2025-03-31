@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    /* fonte */
+    display: flex;
+    /*usa o FlexBox para exibir o conteúdo */
+    justify-content: center;
+    /* centraliza na horizontal */
+    height: 100vh;
+    /* altura da página é todo o conteúdo dela */
+    align-items: center;
+    /* centraliza na vertical */
+    background-color: rgb(255, 255, 255);
+    /*define a cor do fundo da página*/
+}
+
+.container {
+    background-color: rgb(104, 175, 255);
+    padding: 20px;
+    /* espaçamento interno */
+    border-radius: 10px;
+    /* bordas arredondadas */
+    box-shadow: 4px 8px;
+    /*sombra da box */
+    text-align: center;
+    /* centraliza o texto */
+
+
+}
+
+h2 {
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    /* espaçamento interno */
+    border-radius: 5px;
+    cursor: pointer;
+    /* mouse vira um ponteiro */
+}
+
+/* cria o efeito de passar o mouse no botão */
+button:hover {
+    background-color: rgb(255, 212, 71);
+}
+
+.imagem {
+    border-radius: 50%;
+    width: 150px;
+    /* largura */
+    height: 150px;
+    /* altura */
+    margin-bottom: 10px;
+    /* espaçamento externo */
+}
