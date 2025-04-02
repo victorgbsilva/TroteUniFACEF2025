@@ -10,6 +10,7 @@ header {
     color: white;
     padding: 15px 0px; /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda) */ 
     font-size: 24px;
+    pointer-events: none;
 }
 nav {
     background: #0060F5;
@@ -93,4 +94,8 @@ table{
 }
 .campos {
     margin-bottom: 20px;
+}
+nav a:hover {
+    background: #8b6201;
+    scale: 110%;
 }
