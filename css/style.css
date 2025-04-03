@@ -99,3 +99,14 @@ nav a:hover {
     background: #8b6201;
     scale: 110%;
 }
+.table2 {
+    padding: 8px;
+    margin: 0 auto;
+    & thead {
+        color: white;
+        background-color: #0060F5;
+    }
+    & td {
+        
+    }
+}
