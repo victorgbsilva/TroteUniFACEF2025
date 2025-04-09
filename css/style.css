@@ -8,8 +8,8 @@ body {
 header {
     background-color: #FFB401;
     color: white;
-    padding: 15px 0px; /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda) */ 
-    font-size: 24px;
+    padding: 20px 0px; /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda) */ 
+    font-size: 30px;
     pointer-events: none;
 }
 nav {
@@ -26,18 +26,20 @@ nav {
 nav a { /* configura os links do menu */
     color: white;
     text-decoration: none; /* Não decora os links */
-    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
-    font-size: 18px;
+    padding: 20px 20px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
+    font-size: 20px;
     background: #FFB401;
-    border-radius: 5px; /* cantos arredondados */
+    border-radius: 58px; /* cantos arredondados */
+    border-style: ridge;
+    margin-left: 24px;
 }
 img {
-    width: 120px;
+    width: 150px;
     height: auto;
     margin-right: 80px; /* espaçamento externo à direita */
-    border: #000000;
-    border-style: groove;
-    border-radius: 10px;
+    border: #ffffff;
+    border-style: ridge;
+    border-radius: 60px;
 }
 .container{
     width: 80%; /* Largura de 80% da página */
