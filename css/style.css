@@ -21,7 +21,7 @@ nav {
 }
 #links-menu {
     display: flex;
-    gap: 30px; /* Distância entre os itens do menu */
+    gap: 15px; /* Distância entre os itens do menu */
 }
 nav a { /* configura os links do menu */
     color: white;
