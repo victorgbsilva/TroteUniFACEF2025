@@ -36,7 +36,7 @@ nav a { /* configura os links do menu */
 img {
     width: 110px;
     height: auto;
-    margin-right: 80px; /* espaçamento externo à direita */
+    margin-right: 20px; /* espaçamento externo à direita */
     border: #ffffff;
     border-style: ridge;
     border-radius: 30px;
