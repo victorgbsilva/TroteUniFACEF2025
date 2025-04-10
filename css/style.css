@@ -26,20 +26,20 @@ nav {
 nav a { /* configura os links do menu */
     color: white;
     text-decoration: none; /* Não decora os links */
-    padding: 20px 20px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
+    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
     font-size: 20px;
     background: #FFB401;
     border-radius: 58px; /* cantos arredondados */
     border-style: ridge;
-    margin-left: 24px;
+    margin-left: 10px;
 }
 img {
-    width: 150px;
+    width: 110px;
     height: auto;
     margin-right: 80px; /* espaçamento externo à direita */
     border: #ffffff;
     border-style: ridge;
-    border-radius: 60px;
+    border-radius: 30px;
 }
 .container{
     width: 80%; /* Largura de 80% da página */
