@@ -48,7 +48,6 @@ nav {
 }
 
 nav a {
-    flex: 1 1 auto;
     text-align: center;
     color: white;
     text-decoration: none;
