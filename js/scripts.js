@@ -54,4 +54,7 @@ function calcular() {
     // retorna o valor ao HTML
     // template string
     document.getElementById("soma").innerHTML = `A soma é: ${soma}`
+    function limparCalculadora() {
+        document.querySelector('.display').value = ''; 
+      }
 } 

@@ -10,76 +10,91 @@
 </head>
 
 <body>
-    <header> <!-- cabeçalho do corpo da página -->
-        Trote Solidário 2025
-    </header>
-    <nav> <!-- Barra de navegação (menu de opções) -->
-        <div id="links-menu">
-            <a href="index.html"> Home </a>
-            <a href="introducao.html"> Introdução </a>
-            <a href="objetivo.html"> Objetivo </a>
-            <a href="formato.html"> Formato </a>
-            <a href="gincana.html"> Gincana </a>
-            <a href="integracao.html"> Integração </a>
-            <a href="observacoes.html"> Observações </a>
-            <a href="calculadoras.html"> Calculadoras </a>
+    <main>
+        <header> <!-- cabeçalho do corpo da página -->
+            Trote Solidário 2025
+        </header>
+        <nav> <!-- Barra de navegação (menu de opções) -->
+            <div id="links-menu">
+                <a href="index.html"> Home </a>
+                <a href="introducao.html"> Introdução </a>
+                <a href="objetivo.html"> Objetivo </a>
+                <a href="formato.html"> Formato </a>
+                <a href="gincana.html"> Gincana </a>
+                <a href="integracao.html"> Integração </a>
+                <a href="observacoes.html"> Observações </a>
+                <a href="calculadoras.html"> Calculadoras </a>
+            </div>
+        </nav>
+        <!-- Class podemos reutilizar o estilo, ID é unico (O elemento só pode ter um ID) -->
+        <!-- ID não pode ser reutilizado pois só temos um elemento por ID -->
+        <!-- acesso ao class no css é "." e no ID é # -->
+        <div class="containercalc">
+            <h2>Calculadoras</h2>
+            <form>
+                <div class="campos">
+                    <label for="equipe">Selecione a cor da equipe</label>
+                    <select class="tcalc" id="equipe">
+                        <option value="Laranja">Laranja</option>
+                        <option value="Preta">Preta</option>
+                        <option value="Roxa">Roxa</option>
+                        <option value="Verde">Verde</option>
+                        <option value="Vermelha">Vermelha</option>
+                    </select>
+                </div>
+
+                <div class="campos">
+                    <label for="mascote">Mascote do time</label>
+                    <input class="tcalc" type="number" id="mascote" />
+                </div>
+
+                <div class="campos">
+                    <label for="homenagem">Homenagem a um atleta</label>
+                    <input class="tcalc" type="number" id="homenagem" />
+                </div>
+
+                <div class="campos">
+                    <label for="leite">Quantidade de litros de leite</label>
+                    <input class="tcalc" type="number" id="leite" />
+                </div>
+
+                <div class="campos">
+                    <label for="kit">Kit alimentação</label>
+                    <input class="tcalc" type="number" id="kit" />
+                </div>
+
+                <div class="campos">
+                    <label for="suplemento">Suplemento</label>
+                    <input class="tcalc" type="number" id="suplemento" />
+                </div>
+
+                <div class="campos">
+                    <label for="sangue">Doação de Sangue</label>
+                    <input class="tcalc" type="number" id="sangue" />
+                </div>
+
+                <div class="campos">
+                    <button class="bcalc" type="button" onclick="calcular()">Calcular</button>
+                </div>
+                <div>
+                    <button class="bcalc" onclick="limparCalculadora()">Limpar</button>
+                </div>
+                <div class="resultado">
+                    <label id="soma"></label>
+                </div>
+            </form>
         </div>
-    </nav>
-    <!-- Class podemos reutilizar o estilo, ID é unico (O elemento só pode ter um ID) -->
-    <!-- ID não pode ser reutilizado pois só temos um elemento por ID -->
-    <!-- acesso ao class no css é "." e no ID é # -->
-    <div class="containercalc">
-        <h2>Calculadoras</h2>
-        <form>
-            <div class="campos">
-                <label for="equipe">Selecione a cor da equipe</label>
-                <select class="tcalc" id="equipe">
-                    <option value="Laranja">Laranja</option>
-                    <option value="Preta">Preta</option>
-                    <option value="Roxa">Roxa</option>
-                    <option value="Verde">Verde</option>
-                    <option value="Vermelha">Vermelha</option>
-                </select>
-            </div>
-
-            <div class="campos">
-                <label for="mascote">Mascote do time</label>
-                <input class="tcalc" type="number" id="mascote" />
-            </div>
-
-            <div class="campos">
-                <label for="homenagem">Homenagem a um atleta</label>
-                <input class="tcalc" type="number" id="homenagem" />
-            </div>
-
-            <div class="campos">
-                <label for="leite">Quantidade de litros de leite</label>
-                <input class="tcalc" type="number" id="leite" />
-            </div>
-
-            <div class="campos">
-                <label for="kit">Kit alimentação</label>
-                <input class="tcalc" type="number" id="kit" />
-            </div>
-
-            <div class="campos">
-                <label for="suplemento">Suplemento</label>
-                <input class="tcalc" type="number" id="suplemento" />
-            </div>
-
-            <div class="campos">
-                <label for="sangue">Doação de Sangue</label>
-                <input class="tcalc" type="number" id="sangue" />
-            </div>
-
-            <div class="campos">
-                <button class="bcalc" type="button" onclick="calcular()">Calcular</button>
-            </div>
-            <div class="resultado">
-                <label id="soma"></label>
-            </div>
-        </form>
-    </div>
+    </main>
 </body>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="images/trote.jpg" alt="Logo Uni-FACEF" />
+        </div>
+        <div class="footer-info">
+            <p>© 2025 Trote Solidário Uni-FACEF. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
 
 </html>
