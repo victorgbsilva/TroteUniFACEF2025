@@ -11,7 +11,7 @@ O projeto visa centralizar informações sobre o evento, como objetivos, formato
 
 - HTML5
 - CSS3
-- JavaScript (em breve)
+- JavaScript
 
 ---
 
