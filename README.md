@@ -2,7 +2,7 @@
 
 ## 📚 Sobre o projeto
 
-Este repositório contém o desenvolvimento do site oficial do **Trote Solidário 2025** da **Uni-FACEF** (Centro Universitário Municipal de Franca).  
+Este repositório contém o desenvolvimento de um site para o **Trote Solidário 2025** da **Uni-FACEF** (Centro Universitário Municipal de Franca).  
 O projeto visa centralizar informações sobre o evento, como objetivos, formato, gincanas, integração e muito mais, além de oferecer ferramentas de apoio aos participantes.
 
 ---
