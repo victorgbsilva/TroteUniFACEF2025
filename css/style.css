@@ -41,7 +41,6 @@ nav {
 
 #links-menu {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     width: 100%;
@@ -250,7 +249,6 @@ span.ve {
     width: 80%;
     margin: 20px auto;
     font-family: Arial, sans-serif;
-    border-radius: 5px;
 }
 
 .texto-kit {
@@ -281,7 +279,7 @@ span.ve {
     margin: 20px auto;
     border: 1px solid #ccc;
     border-collapse: collapse;
-    background-color: #ffffff;
+    background-color: #d9eaf7;
 }
 
 .escala-pontuacoes thead th {
@@ -298,7 +296,7 @@ span.ve {
 .escala-pontuacoes tbody td {
     padding: 20px;
     text-align: left;
-    background-color: #fff;
+    background-color: #d9eaf7;
 }
 
 .txt {
