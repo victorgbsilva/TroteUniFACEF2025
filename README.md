@@ -24,6 +24,4 @@ O projeto visa centralizar informações sobre o evento, como objetivos, formato
 
 ---
 
-## 🖼️ Visual
-
 ![Trote Uni-FACEF](images/trote.jpg)
