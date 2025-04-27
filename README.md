@@ -1,24 +1,29 @@
-Trote Solidário Uni-FACEF 2025
+# 🎓 Trote Solidário Uni-FACEF 2025
 
-📚 Sobre o projeto
+## 📚 Sobre o projeto
 
-Este repositório contém o desenvolvimento do site oficial do Trote Solidário 2025 da Uni-FACEF (Centro Universitário Municipal de Franca).O projeto visa centralizar informações sobre o evento, como objetivos, formato, gincanas, integração e muito mais, além de oferecer ferramentas de apoio aos participantes.
+Este repositório contém o desenvolvimento do site oficial do **Trote Solidário 2025** da **Uni-FACEF** (Centro Universitário Municipal de Franca).  
+O projeto visa centralizar informações sobre o evento, como objetivos, formato, gincanas, integração e muito mais, além de oferecer ferramentas de apoio aos participantes.
 
-🚀 Tecnologias Utilizadas
+---
 
-HTML5
+## 🚀 Tecnologias Utilizadas
 
-CSS3
+- HTML5
+- CSS3
+- JavaScript (em breve)
 
-JavaScript (em breve)
+---
 
-🎯 Objetivos do Site
+## 🎯 Objetivos do Site
 
-Informar estudantes sobre o Trote Solidário 2025.
+- Informar estudantes sobre o **Trote Solidário 2025**.
+- Estimular a participação em atividades de integração e solidariedade.
+- Facilitar o acesso às regras, gincanas e calculadoras de pontuação.
+- Proporcionar uma experiência visual agradável, moderna e acessível.
 
-Estimular a participação em atividades de integração e solidariedade.
+---
 
-Facilitar o acesso às regras, gincanas e calculadoras de pontuação.
+## 🖼️ Visual
 
-Proporcionar uma experiência visual agradável, moderna e acessível.
-
+![Trote Uni-FACEF](C:\Users\victo\Documents\projetojeto\images\trote.jpg)
