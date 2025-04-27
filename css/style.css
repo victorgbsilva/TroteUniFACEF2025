@@ -1,23 +1,22 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-  }
-  
-  main {
+}
+
+main {
     flex: 1;
-  }
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    /* espaçamento externo da página */
     padding: 0;
-    /* espaçamento interno da página */
     background-color: #f4f4f4;
     text-align: center;
-    /* texto centralizado*/
 }
 
 header {
@@ -64,16 +63,13 @@ nav a:hover {
     background: #8b6201;
     transform: scale(1.1);
 }
+
 .container {
     width: 80%;
-    /* Largura de 80% da página */
     background: rgb(240, 240, 240);
     border-radius: 10px;
-    /* espaçamento externo 20px acima e abaixo */
-    /* espaçamento externo auto à direito e à esquerda */
     margin: 20px auto;
     padding: 20px;
-    /*espaçamento interno*/
     text-align: justify;
 }
 
@@ -84,7 +80,6 @@ nav a:hover {
     margin: 20px auto;
     padding: 20px;
     text-align: center;
-    /* Centraliza o título e o formulário */
 }
 
 h2 {
@@ -95,13 +90,36 @@ ol li {
     padding-bottom: 10px;
 }
 
-table tr td {
-    padding: 20px;
+th,
+td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+thead th {
+    background-color: #0060F5;
+    color: white;
+    font-size: 18px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
 }
 
 table {
-    margin: 0 auto;
-    /* centraliza a tabela na página */
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #000;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
 }
 
 .laranja {
@@ -146,27 +164,41 @@ table {
     justify-self: center;
 }
 
+.tabela-sorteio {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #000;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.tabela-sorteio th,
+.tabela-sorteio td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tabela-sorteio thead th {
+    font-size: 18px;
+}
 
 .campos {
     display: flex;
-    /* Coloca label e input lado a lado */
     align-items: center;
-    /* Alinha na vertical */
     justify-content: center;
-    /* Centraliza o conteúdo */
     gap: 10px;
-    /* Espaçamento entre o label e o input */
     margin-bottom: 20px;
 }
 
 .campos label {
     width: 200px;
-    /* Faz os labels terem o mesmo tamanho */
     text-align: right;
     font-size: 16px;
 }
-
-
 
 .table2 {
     padding: 2px;
@@ -214,10 +246,12 @@ span.ve {
     font-weight: bold;
     font-style: italic;
 }
-
+.bold-underline {
+    text-decoration: underline;
+    font-weight: bold;
+}
 .tcalc {
     width: 200px;
-    /* Define um tamanho fixo para todos os inputs e selects */
     padding: 5px;
     font-size: 16px;
 }
@@ -242,11 +276,20 @@ span.ve {
     font-size: 18px;
 }
 
-.caixa-kit {
+.caixa-kit1 {
     background-color: #d9eaf7;
     padding: 20px;
     border: 1px solid #000;
-    width: 80%;
+    width: 45%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.caixa-kit2 {
+    background-color: #d9eaf7;
+    padding: 20px;
+    border: 1px solid #000;
+    width: 32%;
     margin: 20px auto;
     font-family: Arial, sans-serif;
 }
@@ -284,7 +327,6 @@ span.ve {
 
 .escala-pontuacoes thead th {
     background-color: #d9eaf7;
-    /* mesma vibe da caixa azul clara */
     color: #000;
     font-weight: bold;
     padding: 10px;
@@ -299,17 +341,53 @@ span.ve {
     background-color: #d9eaf7;
 }
 
+.caixa-importante {
+    background-color: #f9f9dc;
+    /* amarelo bem claro */
+    padding: 20px;
+    border: 1px solid #000;
+    width: 70%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+.titulo-importante {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lista-importante {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista-importante li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
 .txt {
     text-align: center;
-    /* Centraliza o bloco */
     margin: 20px auto;
-    /* Dá espaçamento em volta */
     width: 80%;
-    /* Deixa o texto mais compacto */
     font-size: 16px;
     line-height: 1.5;
-    /* Espaço entre linhas para ficar mais agradável */
+
 }
+
+.lista-avulsos {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.lista-avulsos li {
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 16px;
+}
+
 .footer {
     background: linear-gradient(90deg, #0059b2, #00b6e6);
     color: #ffffff;
@@ -320,34 +398,33 @@ span.ve {
     flex-direction: column;
     gap: 10px;
     border-top: 2px solid #ffffff;
-  }
-  
-  .footer-conteudo {
+}
+
+.footer-conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-  }
-  
-  .footer-texto p {
+}
+
+.footer-texto p {
     margin: 2px 0;
     line-height: 1.4;
-  }
-  
-  .footer-texto a {
+}
+
+.footer-texto a {
     color: #ffffff;
     text-decoration: underline;
-  }
-  
-  .footer-img img {
+}
+
+.footer-img img {
     width: 80px;
     height: auto;
     border: 2px solid #ffffff;
     border-radius: 8px;
-  }
-  
-  .footer-baixo {
+}
+
+.footer-baixo {
     font-size: 12px;
     opacity: 0.8;
-  }
-  
+}
