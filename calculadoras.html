@@ -24,51 +24,59 @@
             <a href="observacoes.html"> Observações </a>
             <a href="calculadoras.html"> Calculadoras </a>
         </div>
-        <img src="images/trote.jpg" alt="Trote Solidário" />
     </nav>
     <!-- Class podemos reutilizar o estilo, ID é unico (O elemento só pode ter um ID) -->
     <!-- ID não pode ser reutilizado pois só temos um elemento por ID -->
     <!-- acesso ao class no css é "." e no ID é # -->
-    <div class="container">
-        <h2> Calculadoras </h2>
+    <div class="containercalc">
+        <h2>Calculadoras</h2>
         <form>
             <div class="campos">
-                <label> Selecione a cor da equipe </label>
-                <select id="equipe">
-                    <option value="Laranja"> Laranja</option>
-                    <option value="Preta"> Preta </option>
-                    <option value="Roxa"> Roxa </option>
-                    <option value="Verde"> Verde </option>
-                    <option value="Vermelha"> Vermelha </option>
+                <label for="equipe">Selecione a cor da equipe</label>
+                <select class="tcalc" id="equipe">
+                    <option value="Laranja">Laranja</option>
+                    <option value="Preta">Preta</option>
+                    <option value="Roxa">Roxa</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Vermelha">Vermelha</option>
                 </select>
             </div>
+
             <div class="campos">
-                <label> Mascote do time </label>
-                <input type="number" id="mascote"/>
+                <label for="mascote">Mascote do time</label>
+                <input class="tcalc" type="number" id="mascote" />
             </div>
+
             <div class="campos">
-                <label> Homenagem a um atleta </label>
-                <input type="number" id="homenagem"/>
+                <label for="homenagem">Homenagem a um atleta</label>
+                <input class="tcalc" type="number" id="homenagem" />
             </div>
+
             <div class="campos">
-                <label> Quantidade de litros de leite </label>
-                <input type="number" id="leite"/>
+                <label for="leite">Quantidade de litros de leite</label>
+                <input class="tcalc" type="number" id="leite" />
             </div>
+
             <div class="campos">
-                <label> Kit alimentação </label>
-                <input type="number" id="kit"/>
+                <label for="kit">Kit alimentação</label>
+                <input class="tcalc" type="number" id="kit" />
             </div>
+
             <div class="campos">
-                <label> Suplemento </label>
-                <input type="number" id="suplemento"/>
+                <label for="suplemento">Suplemento</label>
+                <input class="tcalc" type="number" id="suplemento" />
             </div>
+
             <div class="campos">
-                <label> Doação de Sangue </label>
-                <input type="number" id="sangue">
+                <label for="sangue">Doação de Sangue</label>
+                <input class="tcalc" type="number" id="sangue" />
             </div>
+
             <div class="campos">
-                <button type="button" onclick="calcular()"> Calcular </button>
-                <label id="soma"> </label>
+                <button class="bcalc" type="button" onclick="calcular()">Calcular</button>
+            </div>
+            <div class="resultado">
+                <label id="soma"></label>
             </div>
         </form>
     </div>

@@ -1,111 +1,304 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* espaçamento externo da página */
-    padding: 0; /* espaçamento interno da página */
+    margin: 0;
+    /* espaçamento externo da página */
+    padding: 0;
+    /* espaçamento interno da página */
     background-color: #f4f4f4;
-    text-align: center; /* texto centralizado*/
+    text-align: center;
+    /* texto centralizado*/
 }
+
 header {
-    background-color: #FFB401;
+    background: linear-gradient(90deg, #FFB401 0%, #FFD700 100%);
     color: white;
-    padding: 20px 0px; /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda) */ 
-    font-size: 30px;
+    padding: 30px 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
     pointer-events: none;
 }
+
 nav {
     background: #0060F5;
-    padding: 10px; /*espaçamento interno do menu*/
-    display: flex; /* Flex Boxing */
-    justify-content: space-between; /* Espaço entre os elementos do menu */
-    align-items: center; /* Alinhamento na vertical */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 #links-menu {
     display: flex;
-    gap: 15px; /* Distância entre os itens do menu */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 }
-nav a { /* configura os links do menu */
+
+nav a {
+    flex: 1 1 auto;
+    text-align: center;
     color: white;
-    text-decoration: none; /* Não decora os links */
-    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
-    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 18px;
     background: #FFB401;
-    border-radius: 58px; /* cantos arredondados */
-    border-style: ridge;
-    margin-left: 10px;
-}
-img {
-    width: 110px;
-    height: auto;
-    margin-right: 20px; /* espaçamento externo à direita */
-    border: #ffffff;
-    border-style: ridge;
     border-radius: 30px;
+    border: 2px solid white;
+    min-width: 120px;
+    transition: all 0.3s ease;
+    font-weight: bold;
 }
-.container{
-    width: 80%; /* Largura de 80% da página */
-    background: white;
+
+nav a:hover {
+    background: #8b6201;
+    transform: scale(1.1);
+}
+.container {
+    width: 80%;
+    /* Largura de 80% da página */
+    background: rgb(240, 240, 240);
     border-radius: 10px;
     /* espaçamento externo 20px acima e abaixo */
     /* espaçamento externo auto à direito e à esquerda */
     margin: 20px auto;
-    padding: 20px; /*espaçamento interno*/
+    padding: 20px;
+    /*espaçamento interno*/
     text-align: justify;
 }
+
+.containercalc {
+    width: 80%;
+    background: rgb(240, 240, 240);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    /* Centraliza o título e o formulário */
+}
+
 h2 {
     text-align: center;
-}  
+}
+
 ol li {
     padding-bottom: 10px;
 }
+
 table tr td {
     padding: 20px;
 }
-table{
-    margin: 0 auto; /* centraliza a tabela na página */
+
+table {
+    margin: 0 auto;
+    /* centraliza a tabela na página */
 }
-.laranja{
+
+.laranja {
     background-color: rgb(255, 123, 0);
+    color: #ffffff;
 }
-.preta{
+
+.preta {
     background-color: #000000;
     color: #ffffff;
 }
-.roxa{
+
+.roxa {
     background-color: rgb(102, 16, 184);
     color: #ffffff;
 }
-.verde{
+
+.verde {
     background-color: green;
+    color: #ffffff;
 }
-.vermelho{
+
+.vermelho {
     background-color: rgb(207, 10, 10);
+    color: #ffffff;
 }
-.azul{
+
+.azul {
     background-color: navy;
     color: white;
 }
-.sorteio{
+
+.sorteio {
     font-style: italic;
     justify-self: center;
 }
-.tabel{
-    padding: 8px;
+
+.tabel {
+    padding: 2px;
     border-color: #000000;
     margin: 12px;
     justify-self: center;
 }
+
+
 .campos {
+    display: flex;
+    /* Coloca label e input lado a lado */
+    align-items: center;
+    /* Alinha na vertical */
+    justify-content: center;
+    /* Centraliza o conteúdo */
+    gap: 10px;
+    /* Espaçamento entre o label e o input */
     margin-bottom: 20px;
 }
-nav a:hover {
-    background: #8b6201;
-    scale: 110%;
+
+.campos label {
+    width: 200px;
+    /* Faz os labels terem o mesmo tamanho */
+    text-align: right;
+    font-size: 16px;
 }
+
+
+
 .table2 {
-    padding: 8px;
+    padding: 2px;
     margin: 0 auto;
+    align-items: center;
+
     & thead {
         color: white;
         background-color: #0060F5;
+        text-align: center;
     }
+}
+
+.texto-negrito {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+span.la {
+    color: #ff6701;
+    font-weight: bold;
+}
+
+span.rx {
+    color: purple;
+    font-weight: bold;
+}
+
+span.vr {
+    color: green;
+    font-weight: bold;
+}
+
+span.ve {
+    color: red;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolditalic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tcalc {
+    width: 200px;
+    /* Define um tamanho fixo para todos os inputs e selects */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.bcalc {
+    padding: 10px 20px;
+    background-color: #0060F5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bcalc:hover {
+    background-color: #0040aa;
+}
+
+.resultado {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.caixa-kit {
+    background-color: #d9eaf7;
+    padding: 20px;
+    border: 1px solid #000;
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.texto-kit {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.lista-itens {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo-secao {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.meta-final {
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.escala-pontuacoes {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.escala-pontuacoes thead th {
+    background-color: #d9eaf7;
+    /* mesma vibe da caixa azul clara */
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.escala-pontuacoes tbody td {
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.txt {
+    text-align: center;
+    /* Centraliza o bloco */
+    margin: 20px auto;
+    /* Dá espaçamento em volta */
+    width: 80%;
+    /* Deixa o texto mais compacto */
+    font-size: 16px;
+    line-height: 1.5;
+    /* Espaço entre linhas para ficar mais agradável */
 }

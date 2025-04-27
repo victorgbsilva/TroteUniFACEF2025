@@ -32,7 +32,7 @@ function calcular() {
             soma = soma + 1000((kit - 19) * 30) + ((suplemento - 10) * 15)
         }
         // verificar sangue
-        if (sangue >=49){
+        if (sangue >= 49) {
             soma == soma + 2500 + ((sangue - 49) * 20)
         }
         else {

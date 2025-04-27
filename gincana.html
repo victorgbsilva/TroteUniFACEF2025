@@ -23,21 +23,22 @@
             <a href="observacoes.html"> Observações </a>
             <a href="calculadoras.html"> Calculadoras </a>
         </div>
-        <img src="images/trote.jpg" alt="Trote Solidário" />
     </nav>
     <!-- Class podemos reutilizar o estilo, ID é unico (O elemento só pode ter um ID) -->
     <!-- ID não pode ser reutilizado pois só temos um elemento por ID -->
     <!-- acesso ao class no css é "." e no ID é # -->
     <div class="container">
         <h2> Gincana </h2>
-        <p>
+        <p class="txt">
             Serão formadas equipes pela Reitoria, conforme Tabelas 1 e 2, de acordo com a
             quantidade de estudantes matriculados em cada curso (Tabela 2), de forma a garantir a
             equidade entre as equipes.
         </p>
-        <p>
-            ATENÇÃO: Cada equipe será reconhecida por uma cor (Laranja, Preta, Roxa,
-            Verde, Vermelha), a ser sorteada no dia da divulgação do Regulamento em
+        <p class="txt">
+            ATENÇÃO: Cada equipe será reconhecida por uma cor (<span class="la">Laranja</span>, <span
+                class="bold">Preta</span>, <span class="rx">Roxa</span>,
+            <span class="vr">Verde</span> e <span class="ve">Vermelha</span>), a ser sorteada no dia da divulgação do
+            Regulamento em
             18/02/2025. As equipes deverão trabalhar suas respectivas cores, também na noite de
             encerramento do TROTE SOLIDÁRIO Uni-FACEF 2025, utilizando sua respectiva cor
             no vestuário e adereços. Cada equipe que tiver os seus membros bem caracterizados
@@ -46,11 +47,11 @@
             para entrega dos alimentos, e de apresentação no Encerramento, seguirá a ordem
             alfabética das cores.
         </p>
-        <p>
+        <p class="txt">
             É importante lembrar que haverá registro de presença para fins de emissão de
             certificados.
         </p>
-        <p>
+        <p class="txt">
             As equipes serão responsáveis pelo planejamento, arrecadação e
             armazenamento prévio dos itens aqui relacionados. A entrega dos alimentos, dos
             suplementos alimentares, bem como dos comprovantes de realização das provas da
@@ -105,7 +106,7 @@
         <table class="table2" border="1">
             <thead>
                 <th> CURSO </th>
-                <th> ALUNOS </th>
+                <th> <span id="alunos">ALUNOS</span> </th>
             </thead>
             <tbody>
                 <tr>
@@ -113,41 +114,240 @@
                     <td> 80 </br>
                 </tr>
                 <tr>
-                    <td> Ciência da Computação  </br>
+                    <td> Ciência da Computação </br>
                     <td> 36 </br>
                 </tr>
                 <tr>
-                    <td> Administração </br>
-                    <td> 80 </br>
+                    <td> Ciências Contábeis </br>
+                    <td> 23 </br>
                 </tr>
                 <tr>
-                    <td> Administração </br>
-                    <td> 80 </br>
+                    <td> Comunicação Social – Publ. e Propaganda </br>
+                    <td> 37 </br>
                 </tr>
                 <tr>
-                    <td> Administração </br>
-                    <td> 80 </br>
+                    <td> Enfermagem </br>
+                    <td> 19 </br>
                 </tr>
                 <tr>
-                    <td> Administração </br>
-                    <td> 80 </br>
+                    <td> Engenharia Civil </br>
+                    <td> 20 </br>
                 </tr>
                 <tr>
-                    <td> Administração </br>
-                    <td> 80 </br>
+                    <td> Engenharia de Produção </br>
+                    <td> 09 </br>
                 </tr>
                 <tr>
-                    <td> Administração </br>
-                    <td> 80 </br>
+                    <td> Engenharia de Software </br>
+                    <td> 60 </br>
                 </tr>
                 <tr>
-                    <td> Administração </br>
-                    <td> 80 </br>
+                    <td> Letras (Port./Inglês) </br>
+                    <td> 22 </br>
+                </tr>
+                <tr>
+                    <td> Matemática </br>
+                    <td> 16 </br>
+                </tr>
+                <tr>
+                    <td> Medicina </br>
+                    <td> 86 </br>
+                </tr>
+                <tr>
+                    <td> Psicologia </br>
+                    <td> 60 </br>
+                </tr>
+                <tr>
+                    <td> Sistemas de Informação </br>
+                    <td> 29 </br>
                 </tr>
             </tbody>
         </table>
-    </div>
+        <p class="sorteio">Fonte: Sistema Acadêmico/Uni-FACEF, em 18/02/2025 </p>
+        <p class="texto-negrito"> ⇨ ALIMENTOS E SUPLEMENTOS – METAS POR EQUIPE </p>
+        <p class="txt">
+            Esta etapa consiste na arrecadação/doação, pelos calouros, de itens
+            alimentícios que serão posteriormente entregues a entidades e instituições francanas
+            de assistência social e suplementos alimentares destinados às atividades dos
+            Voluntários da Saúde, que atuam no Hospital de Câncer de Franca.
+        </p>
+        <p class="txt">
+            Para este ano a meta de arrecadação é composta por <span class="bold">um Kit Alimentação</span> por
+            estudante e <span class="bold">um Suplemento Alimentar</span> para cada <span class="bold">dois
+                estudantes</span> da equipe:
+        </p>
+        <div class="caixa-kit">
+            <div class="texto-kit">
+                🢂 <b>Kits Alimentação</b> contendo <b>NECESSARIAMENTE</b> os seguintes itens e as respectivas
+                quantidades abaixo relacionadas (por kit):
+            </div>
 
+            <ul class="lista-itens">
+                <li>2 pacotes de 5kg de arroz - tipo 1;</li>
+                <li>2 pacotes de 2kg (ou 4 pacotes de 1kg) de feijão - tipo carioca;</li>
+                <li>3 unidades óleo de soja (1 litro ou 900ml cada);</li>
+                <li>6 pacotes de macarrão de 400/500g (ou 3 pacotes de 1 Kg).</li>
+            </ul>
+
+            <div class="texto-kit">
+                🢂 <b>Suplementos alimentares</b>, conforme especificação:
+            </div>
+
+            <ul class="lista-itens">
+                <li>Lata de 400 gramas, adulto, preferencialmente sabor baunilha, das marcas:<br>
+                    - Ensure<br>
+                    - Nutren 1.0
+                </li>
+            </ul>
+
+            <div class="meta-final">
+                Meta: 01 (um) Kit Alimentação por estudante e 01 (um) Suplemento Alimentar para <b>cada dois</b>
+                estudantes da equipe.
+            </div>
+        </div>
+        <p class="sorteio">
+            * cada Kit Alimentação deverá vir embalado em plástico transparente<br>
+            ** as latas de suplemento não devem ser embaladas junto com o kit alimentação<br>
+            *** na ocorrência da arrecadação/doação de lata de Ensure / Nutren 1.0 com peso superior, a mesma
+            pontuará apenas como uma doação.<br>
+            **** não são pontuados macarrão do tipo instantâneo
+        </p>
+    </div>
+    <p class="texto-negrito"> Tabela 3 – Metas por Equipe </p>
+    <table class="tabel" border="1">
+        <thead>
+            <tr class="azul">
+                <th rowspan="2">Equipe*</th>
+                <th rowspan="2">Cursos</th>
+                <th colspan="2">Meta</th>
+                <th colspan="2">80%</th>
+                <th colspan="2">50%</th>
+                <th colspan="2">20%</th>
+            </tr>
+            <tr class="azul">
+                <th>Kits</th>
+                <th>Supl.</th>
+                <th>Kits</th>
+                <th>Supl.</th>
+                <th>Kits</th>
+                <th>Supl.</th>
+                <th>Kits</th>
+                <th>Supl.</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="laranja">Laranja</td>
+                <td>
+                    Matemática <br>
+                    Letras (Português/Inglês) <br>
+                    Engenharia de Software
+                </td>
+                <td>97</td>
+                <td>49</td>
+                <td>78</td>
+                <td>39</td>
+                <td>49</td>
+                <td>25</td>
+                <td>19</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td class="preta">Preta</td>
+                <td>
+                    Medicina <br>
+                    Enfermagem
+                </td>
+                <td>103</td>
+                <td>52</td>
+                <td>82</td>
+                <td>42</td>
+                <td>51</td>
+                <td>26</td>
+                <td>21</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td class="roxa">Roxa</td>
+                <td>
+                    Comunic. Social – PP <br>
+                    Sistemas de Informação <br>
+                    Ciência da Computação
+                </td>
+                <td>102</td>
+                <td>51</td>
+                <td>82</td>
+                <td>41</td>
+                <td>51</td>
+                <td>26</td>
+                <td>20</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td class="verde">Verde</td>
+                <td>
+                    Engenharia de Produção <br>
+                    Engenharia Civil <br>
+                    Psicologia
+                </td>
+                <td>88</td>
+                <td>44</td>
+                <td>70</td>
+                <td>35</td>
+                <td>44</td>
+                <td>22</td>
+                <td>18</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td class="vermelho">Vermelha</td>
+                <td>
+                    Administração <br>
+                    Ciências Contábeis
+                </td>
+                <td>93</td>
+                <td>47</td>
+                <td>74</td>
+                <td>38</td>
+                <td>47</td>
+                <td>24</td>
+                <td>19</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="sorteio">* conforme sorteio realizado em 18/02/2025</p>
+    <table class="escala-pontuacoes">
+        <thead>
+            <tr>
+                <th class="azul">ESCALA DE PONTUAÇÕES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="texto-kit">
+                    <ul class="lista-itens">
+                        <li><span class="bold">TAREFA CUMPRIDA COM O TOTAL DA META = <span class="bolditalic">5.000
+                                    PONTOS</span></span></li>
+                        <li>Entrega de, no mínimo, 80% dos itens = <span class="bold">4.000 pontos</span></li>
+                        <li>Entrega de, no mínimo, 50% dos itens = <span class="bold">2.500 pontos</span></li>
+                        <li>Entrega de, no mínimo, 20% dos itens = <span class="bold">1.000 pontos</span></li>
+                        <li>Abaixo de 20%, a equipe não pontua.</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="txt">
+        Cada estudante que cumprir sua participação na prova de arrecadação com a
+        entrega de “1/2 (meio) Suplemento” e 01 (um) Kit Alimentação terá direito a um
+        <span class="bold">certificado</span> com 30 horas-atividade. Na incidência de o estudante dobrar sua doação, a
+        quantidade de horas-atividade também será dobrada até um limite de 60 horas. O
+        Controle dos estudantes que possuem direito ao certificado deverá ser feito pelos
+        líderes de cada curso, que deverão entregar uma lista com os nomes dos estudantes e
+        as respectivas quantidades doadas no momento da entrega das doações.
+    </p>
 </body>
 
 </html>
