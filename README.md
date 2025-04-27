@@ -26,4 +26,4 @@ O projeto visa centralizar informações sobre o evento, como objetivos, formato
 
 ## 🖼️ Visual
 
-![Trote Uni-FACEF](C:\Users\victo\Documents\projetojeto\images\trote.jpg)
+![Trote Uni-FACEF](images/trote.jpg)
