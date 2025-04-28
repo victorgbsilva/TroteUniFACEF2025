@@ -36,15 +36,15 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: auto; /* <- Esta linha impede o corte */
+    overflow-x: auto;
 }
 
 #links-menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* permite quebrar linha */
-    gap: 10px; /* diminuir o espaço entre botões */
+    flex-wrap: wrap;
+    gap: 10px;
     width: 100%;
     max-width: 1200px;
 }
@@ -65,7 +65,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #8b6201;
+    background: #0040aa;
     transform: scale(1.1);
 }
 
@@ -251,10 +251,12 @@ span.ve {
     font-weight: bold;
     font-style: italic;
 }
+
 .bold-underline {
     text-decoration: underline;
     font-weight: bold;
 }
+
 .tcalc {
     width: 200px;
     padding: 5px;
@@ -263,16 +265,22 @@ span.ve {
 
 .bcalc {
     padding: 10px 20px;
-    background-color: #0060F5;
+    background-color: #FFB401;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid #FFB401;
+    transition: all 0.3s ease;
 }
 
 .bcalc:hover {
     background-color: #0040aa;
+    scale: 110%;
+    transform: scale(1.1);
+
 }
 
 .resultado {
@@ -285,7 +293,7 @@ span.ve {
     background-color: #d9eaf7;
     padding: 20px;
     border: 1px solid #000;
-    width: 45%;
+    width: 55%;
     margin: 20px auto;
     font-family: Arial, sans-serif;
 }
@@ -294,7 +302,7 @@ span.ve {
     background-color: #d9eaf7;
     padding: 20px;
     border: 1px solid #000;
-    width: 32%;
+    width: 50%;
     margin: 20px auto;
     font-family: Arial, sans-serif;
 }
@@ -382,6 +390,16 @@ span.ve {
 
 }
 
+.txtalinhado {
+    text-align: justify;
+    margin: 20px auto;
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.txtespaco {
+    text-align: right;
+}
 .lista-avulsos {
     padding-left: 20px;
     margin-top: 10px;
