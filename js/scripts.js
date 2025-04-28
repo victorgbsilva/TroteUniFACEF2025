@@ -25,7 +25,14 @@ function calcular() {
     audiovisual = Number(document.getElementById("audiovisual").value)
     acao = Number(document.getElementById("acao").value)
     // para calcular a soma parcial:
-    soma = mascote + homenagem + arroz5 + arroz1 + feijao2 + feijao1 + macarrao + oleo + animacao + audiovisual + acao + (2 * leite);
+    arroz5 = arroz5 * 5
+    arroz1 = arroz1 * 1
+    macarrao = macarrao * 0.5
+    feijao2 = feijao2 * 2
+    feijao1 = feijao1 * 1
+    oleo = oleo * 1
+    leite = leite * 2
+    soma = mascote + homenagem + arroz5 + arroz1 + feijao2 + feijao1 + macarrao + oleo + animacao + audiovisual + acao + leite;
     // vamos calcular a pontuação considerando as metas de kit e suplemento
     equipe = document.getElementById("equipe").value
     // doação de sangue
