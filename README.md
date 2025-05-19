@@ -1,5 +1,7 @@
 # 🎓 Trote Solidário Uni-FACEF 2025
 
+# 🌍 Link de acesso: https://victorgbsilva.github.io/TroteUniFACEF2025
+
 ## 📚 Sobre o projeto
 
 Este repositório contém o desenvolvimento de um site para o **Trote Solidário 2025** da **Uni-FACEF** (Centro Universitário Municipal de Franca).  
